@@ -366,3 +366,164 @@ footer {
   background-color: #f1f1f1;
   padding: 1
 }
+
+@media screen and (max-width: 1200px) {
+  .pic img {
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .pic {
+    font-size: 20px; /* Reduce font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pic img {
+    height: 200px;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .pic {
+    font-size: 18px; /* Further reduce font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pic img {
+    height: 150px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .pic {
+    font-size: 16px; /* Even smaller font size for mobile */
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  ul li {
+    margin-right: 50px;
+  }
+
+  .services-box {
+    max-width: 45%;
+  }
+
+  .project {
+    width: calc(100% - 20px);
+  }
+
+  #title h2 {
+    font-size: 2.5rem;
+  }
+
+  #title h2 span {
+    font-size: 3rem;
+  }
+
+  .pic img {
+    height: 300px;
+    width: 100%;
+  }
+
+  #services {
+    padding: 3rem 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .services-box {
+    max-width: 100%;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  ul li {
+    margin-right: 20px;
+    font-size: 14px;
+  }
+
+  #title h2 {
+    font-size: 2rem;
+  }
+
+  #title p {
+    font-size: 1rem;
+  }
+
+  .pic img {
+    height: auto;
+    width: 100%;
+  }
+
+  .btn-secondary {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  ul li {
+    margin-right: 0;
+    font-size: 13px;
+  }
+
+  #title h2 {
+    font-size: 1.8rem;
+  }
+
+  #title h2 span {
+    font-size: 2.5rem;
+  }
+
+  .pic img {
+    height: auto;
+    width: 100%;
+  }
+
+  #content_details {
+    font-size: 16px;
+  }
+
+  .btn-secondary {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .contact-form {
+    gap: 10px;
+  }
+
+  .services-container,
+  .projects-container {
+    flex-direction: column;
+  }
+
+  .services-box,
+  .project {
+    width: 100%;
+  }
+}
